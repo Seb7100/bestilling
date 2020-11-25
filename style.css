@@ -1,25 +1,88 @@
-html {
-    scroll-behaviour: smooth;
-}
-
 body {
-    margin: 0;
-    box-sizing: border-box;
-    background: #052e5c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+      color: #fff;
+      letter-spacing: 1px;
+    
+  }
+  
+  .container {
+      background-color: rgba(0, 0, 0, 0.667);
+      margin: 100px;
+      box-shadow: 15px 10px 20px rgba(0, 0, 0, .1);
+      display: grid;
+      grid-template-columns: 40% 60%;
+  }
+  
+  .container-tid {
+      background-color: rgba(0, 4, 255, 0.95);
+      padding: 50px;
+      outline: 5px dashed #ffffff;
+      outline-offset: -30px;
+      text-align: center;
+  }
+  .heading {
+      font-size: 40px;
+      text-transform: uppercase;
+  }
+  
+  .heading-days {
+      color: rgba(0, 0, 0, 0.667);
+      font-size: 30px;
+  
+  }
+  
+  .heading-telefon {
+      font-size: 20px;
+  }
+  .container-form {
+      padding: 20px 0;
+      margin: 0 auto;
+      color: #000;
+  }
+  form {
+      display: grid;
+      grid-row-gap: 20px;
+  }
+  form p {
+      font-weight: 600;
+  }
+  .form-field {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  input,select {
+      pad: 10px 15px;
+  }
+  
+  .btn {
+      background-color: rgba(0, 0, 0, .95);
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      font-size: 18px;
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+      box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+      cursor: pointer;
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+  }
+  
+  .btn:hover {
+      transform: scale(1.03);
+      -webkit-transform: scale(1.03);
+      -moz-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      -o-transform: scale(1.03);
+      box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+  }
+  
 }
-
-#header {
-    min-height: 70px;
-    background: red;
-    top: 0;
-}
-
-#header h1 {
-    color: white;
-    font-family: 'poppins';
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
-}
-
-/* push test */
