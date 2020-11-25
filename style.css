@@ -1,0 +1,23 @@
+html {
+    scroll-behaviour: smooth;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #052e5c;
+}
+
+#header {
+    min-height: 70px;
+    background: red;
+    top: 0;
+}
+
+#header h1 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
