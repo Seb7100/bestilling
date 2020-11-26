@@ -7,7 +7,7 @@
   <title>Bestilling</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-  <script src="javascript/order.js"></script>
+  
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -38,11 +38,11 @@
 
 					<div class="form-field">
 						<p>Dit fulde navn</p>
-						<input type="text" placeholder="Dit fulde navn ">
+						<input type="text" placeholder="Dit fulde navn" id="navn">
 					</div>
 					<div class="form-field">
 						<p>Din E-mail</p>
-						<input type="email" placeholder="Din e-mail">
+						<input type="email" placeholder="Din e-mail" id="email">
 					</div>
 					<div class="form-field">
 						<p>Dato</p>
@@ -69,10 +69,11 @@
 						</select>
 					</div>
 
-					<button class="btn">Send bestilling</button>
+					<button class="btn" id="btn">Send bestilling</button>
 				</form>
 		</div>
 	</div>
 	
+	<script src="javascript/order.js"></script>
 </body>
 </html>
