@@ -3,11 +3,16 @@ body {
     font-weight: 400;
       color: #fff;
       letter-spacing: 1px;
+      margin: 0;
+      height: 100%;
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
     
   }
   
   .container {
-      background-color: rgba(0, 0, 0, 0.667);
+      background-color: rgba(255, 255, 255, 0.932);
       margin: 100px;
       box-shadow: 15px 10px 20px rgba(0, 0, 0, .1);
       display: grid;
@@ -15,7 +20,7 @@ body {
   }
   
   .container-tid {
-      background-color: rgba(0, 4, 255, 0.95);
+      background-color: rgba(13, 14, 102, 0.95);
       padding: 50px;
       outline: 5px dashed #ffffff;
       outline-offset: -30px;
@@ -27,7 +32,7 @@ body {
   }
   
   .heading-days {
-      color: rgba(0, 0, 0, 0.667);
+      color: rgba(255, 255, 255, 0.667);
       font-size: 30px;
   
   }
@@ -36,28 +41,29 @@ body {
       font-size: 20px;
   }
   .container-form {
-      padding: 20px 0;
+      padding: 20px;
       margin: 0 auto;
       color: #000;
   }
   form {
       display: grid;
       grid-row-gap: 20px;
+      margin-bottom: 20px;
   }
   form p {
       font-weight: 600;
   }
   .form-field {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
   }
   
   input,select {
-      pad: 10px 15px;
+      padding: 10px 15px;
   }
   
   .btn {
-      background-color: rgba(0, 0, 0, .95);
+      background-color: rgba(13, 14, 102, 0.95);
       color: #fff;
       padding: 10px 20px;
       border: none;
@@ -85,4 +91,10 @@ body {
       box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
   }
   
-}
+  .heading-yellow {
+      margin: 0;
+  }
+
+  #date-input, #time-input, #person-input {
+      width: 30%;
+  }
